@@ -74,3 +74,13 @@ switch (monitorColor) {
 // ==========================================
 // [BONUSOPDRACHT] - optioneel: kun je de switch-statement uit opdracht 2 ook opschrijven met een aantal if-statements?
 // ==========================================
+
+if (monitorColor === "green") {
+    console.log("Hartslag stabiel")
+} else if (monitorColor === "yellow") {
+    console.log("Hartslag verhoogd")
+} else if (monitorColor === "orange" || monitorColor === "red") {
+    console.log("Kritieke hartslag, actie vereist!")
+} else {
+    console.log("Status onbekend, controleer pols handmatig")
+}
